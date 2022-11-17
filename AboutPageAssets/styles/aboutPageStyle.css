@@ -357,9 +357,6 @@ body header {
 	display: block;
 }
 
-
-
-
 .headerContactInfo {
 	float: right;
 	width: 55vw;
@@ -980,7 +977,7 @@ footer .footerNote {
 }
 .cVoReelPicsHeader #iSectionReel .cReel {
 
-
+	width:25vw;
 }
 .cVoReelPicsHeader .cVOAudio {
 	height: 3vw;
