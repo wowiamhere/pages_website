@@ -1,0 +1,1245 @@
+@charset "utf-8";
+
+@import url("../../webfonts/Kingthings_Exeter/stylesheet.css");
+
+
+/* Global Styles */
+
+body {
+	font-family: "Kingthings Exeter";
+	/* [disabled]margin-left: auto; */
+	/* [disabled]margin-right: auto; */
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	/* ---------CUSTOM FOR WEBSITE----------- */
+	background-color: black;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/logo_cropped.png");
+	background-size: contain;
+	background-blend-mode: hard-light;
+/* ---------CUSTOM FOR WEBSITE----------- */
+}
+/* Header */
+header {
+	text-align: center;
+	display: block;
+}
+/* -----------CUSTOM FOR WEBSITE--------*/
+.profileHeader {
+	width: 55vw;
+	float: right;
+	line-height: 1vh;
+}
+/* -----------CUSTOM FOR WEBSITE--------*/
+.logoPlaceholder {
+	background-color: rgba(208,207,207,1.00);
+	width: 187px;
+	text-align: center;
+}
+.logoPlaceholder span {
+	width: 80px;
+	height: 22px;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
+}
+.profilePhoto {
+	width: 259px;
+	height: 259px;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+/* ---------CUSTOM FOR WEBSITE----------- */
+header .profilePhoto img{
+	width: 34vw;
+	height: auto;
+	display: block;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	color: rgba(255,215,0,1.00);
+	font-size: 6vw;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+/*-------added .headerTitle class to DOM -------*/
+.headerTitle{
+	width: 55vw;
+	margin: 3vh 0 7vh;
+	float: right;
+}
+.headerTitle h1 {
+	color: rgba(255,215,0,1);
+	letter-spacing: 7px;
+	font-weight: 700;
+	display: inline;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeader h3 {
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+hr {
+	background-color: rgba(255,215,0,1.00);
+	height: 0.3vh;
+}
+.profileHeader p {
+	color: rgba(146,146,146,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+.cEanchor{
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+.headerContactInfo .cHEmail .cEanchor:hover {
+	text-decoration: underline;
+}
+
+/*----------------------CUSTOM FOR WEBSITE -------------------------*/
+
+header .socialNetworkNavBar {
+	width: 40%;
+	display: inline-block;
+	clear: both;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	border-radius: 50%;
+	cursor: pointer;
+}
+header .socialNetworkNavBar .socialNetworkNav img:hover {
+	opacity: 0.5;
+}
+/* Main Content sections */
+.mainContent .section1 {
+	display: block;
+}
+
+.section1 .sectionTitle, .section2 .sectionTitle {
+	color: rgba(255,215,0,1.00);
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 2.1vw;
+	text-align: right;
+	margin-bottom: 0;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	margin-top: 0;
+	margin-right: 3%;
+	margin-left: 0;
+	margin-bottom: 0;
+	float: left;
+	clear: both;
+	color: rgba(255,215,0,1);
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	background-color: rgba(255,215,0,1);
+	height: 1px;
+	padding: 0px;
+}
+.mainContent .section1 .section1Content {
+	font-size: 14px;
+	font-weight: 100;
+	color: rgba(208,207,207,1.00);
+	margin-left: 10%;
+}
+.section1 .section1Content .sectionContentTitle {
+	color: orange;
+	font-size: 2.1vw;
+
+}
+.section1Content .sectionContentTitle .cResumeTitle {
+	text-decoration: none;
+	color: orange;
+}
+.section1Content .sectionContentTitle .cResumeTitle:hover {
+	text-decoration: underline;
+}
+
+
+.mainContent .section1 .section1Content .sectionContent{
+	margin-left: 10%;
+	font-size: 1.5vw;
+}
+.mainContent .section1 .section1Content .cRole{
+	margin-left: 10%;
+	font-size: 1.6vw;
+}
+.mainContent .section1 .section1Content span {
+	color: rgba(146,146,146,1.00);
+}
+.section2 .sectionContentTitle {
+	color: rgba(146,146,146,1.00);
+	font-size: 18px;
+	font-weight: 700;
+}
+.section2 .cRole {
+	color: rgba(68,67,67,1.00);
+	font-size: 14px;
+	font-weight: 400;
+}
+.section2 .sectionContent {
+	color: rgba(146,146,146,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+.mainContent {
+	display: inline-block;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	background-color: rgba(208,207,207,1.00);
+	display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 3%;
+	cursor: pointer;
+}
+.mainContent .externalResourcesNav .externalResources:hover {
+	background-color: rgba(153,153,153,1.00);
+}
+.externalResourcesNav .externalResources a {
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+}
+.stretch {
+	content: '';
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+	text-align: left;
+	width: 90px;
+	float: left;
+	color-profile: rgba(181,178,178,1.00);
+}
+.cFooter .footerDisclaimer .cFooterSagLink {
+	text-decoration: none;
+	color: rgba(181,178,178,1.00);
+}
+.cFooter .footerDisclaimer .cFooterSagLink:hover {
+	color: rgba(255,215,0,1);
+}
+
+
+footer .footerDisclaimer span {
+	/* [disabled]color: rgba(181,178,178,1.00); */
+	font-weight: 400;
+}
+footer .footerNote {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+	width: 115px;
+	text-align: right;
+	float: right;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+body header {
+	width: 100%;
+	float: left;
+
+
+}
+.cVoReelPicsHeader {
+	width: 55vw;
+	float: right;
+}
+.cVoReelPicsHeader .cVOSec {
+	font-family: "Kingthings Exeter";
+	background-color: black;
+	color: orange;
+
+}
+
+.cVoReelPicsHeader #iSectionVO {
+
+}
+
+.cVoReelPicsHeader #iSectionReel {
+
+}
+
+.cVoReelPicsHeader #iSectionReel .cReel {
+	width: 40vw;
+	height: 15vw;
+
+}
+
+.cVoReelPicsHeader .cVOAudio {
+	display: inline-block;
+}
+
+.cVoReelPicsHeader .cReelVidSec {
+	display: inline-block;
+	font-family: Kingthings Exeter;
+	color: orange;
+	background-color: black;
+}
+
+.cVoReelPicsHeader .cPicsHeader {
+	width: 10vw;
+	display: inline-block;
+}
+
+.cVoReelPicsHeader .cReelHeader {
+	width: 10vw;
+	display: inline-block;
+}
+.cVoReelPicsHeader .cReelHeader #iSectionReel {
+	height: 2vw;
+	display: none;
+	position: relative;
+
+}
+.cReelHeader #iSectionReel .cReel {
+	display: block;
+	position: relative;
+	width: 40vw;
+
+}
+
+
+.cVoReelPicsHeader .cReelHeader .cReelVidSec {
+
+
+}
+.cReelHeader .cReelVidSec .cReel {
+	width: 40vw;
+	height: 20vw;
+	display: block;
+}
+
+
+.cVoReelPicsHeader .cReelHeader label {
+}
+
+
+.cVoReelPicsHeader .cVoHeader {
+	width: 10vw;
+	display: inline-block;
+}
+.cVoReelPicsHeader .cVoHeader .cVOWrap {
+	width: 2.7vw;
+	overflow: hidden;
+	border-radius: 20px;
+	border: 1px solid gold;
+	display: block;
+}
+.cVoHeader .cVOWrap .cVOAudio {
+	height: 4vh;
+	display: block;
+}
+
+
+
+
+.headerContactInfo {
+	float: right;
+	width: 55vw;
+
+
+}
+.profileHeader .cSmallPrint .cSagIactor {
+	text-decoration: none;
+	color: rgba(255,215,0,1);
+}
+.profileHeader .cSmallPrint .cSagIactor:hover {
+	color: orange;
+}
+
+
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+    
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+    background-repeat:space;
+    background-position:top;
+}
+header .headerTitle h1 {
+	font-size: 14vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto img{
+	margin: auto;
+	width: 75%;
+
+}
+header .profileHeader p {
+	text-align: justify;
+}
+header .socialNetworkNavBar {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 60px;
+	height: 60px;
+	display: inline;
+}
+/* Main content sections */
+.mainContent .section1 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+	margin-bottom: 2vh;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	/* [disabled]text-align: left; */
+	text-align: justify;
+	margin-left: 2%;
+	margin-top: 7%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-left: 5vw;
+	margin-top: -6.6vw;
+	font-size: 4.2vw;
+}
+
+.mainContent .section2 {
+	display: block;
+	text-align: center;
+}
+.section2 .section2Content {
+	margin-top: 10%;
+	text-align: justify;
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 100%;
+	height: 35px;
+}
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+}
+
+header .profilePhoto {
+	/* [disabled]width: 259px; */
+	width: 100%;
+	display: block;
+	clear: boht;
+}
+.headerContactInfo {
+	display: block;
+	width: 100%;
+
+
+
+}
+.cHFooter {
+	display: block;
+	width: 100%;
+}
+/* Footer */
+.footerDisclaimer { }
+.profileHeader {
+	float: none;
+	display: block;
+	width: 100%;
+	clear: both;
+
+
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	display: block;
+	margin-top: -5vw;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 4.99vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+/*-------added .headerTitle class to DOM -------*/
+.headerTitle {
+	width: 100%;
+	margin: 0;
+	display: block;
+	clear: both;
+}
+body header {
+	width: 100%;
+	display: block;
+
+
+}
+.mainContent {
+	display: block;
+	width: auto;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 12vw;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 6vw;
+	margin-bottom: 0;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 7vw;
+
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 3.5vw;
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 3.4vw;
+	margin-left: 10%;
+}
+.cVoReelPicsHeader {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+
+}
+
+
+@media only screen and (min-width : 481px) and (max-width : 680px) {
+   
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+    background-repeat:space;
+    background-position:top;
+}
+header .headerTitle h1 {
+	font-size: 14vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto img{
+	margin: auto;
+	width: 75%;
+
+}
+header .profileHeader p {
+	text-align: justify;
+}
+header .socialNetworkNavBar {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 60px;
+	height: 60px;
+	display: inline;
+}
+/* Main content sections */
+.mainContent .section1 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+	margin-bottom: 2vh;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	/* [disabled]text-align: left; */
+	text-align: justify;
+	margin-left: 2%;
+	margin-top: 7%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-left: 5vw;
+	margin-top: -4vw;
+	font-size: 3.4vw;
+}
+
+.mainContent .section2 {
+	display: block;
+	text-align: center;
+}
+.section2 .section2Content {
+	margin-top: 10%;
+	text-align: justify;
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 100%;
+	height: 35px;
+}
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+}
+
+header .profilePhoto {
+	/* [disabled]width: 259px; */
+	width: 100%;
+	display: block;
+	clear: boht;
+}
+.headerContactInfo {
+	display: block;
+	width: 100%;
+
+
+
+}
+.cHFooter {
+	display: block;
+	width: 100%;
+}
+/* Footer */
+.footerDisclaimer { }
+.profileHeader {
+	float: none;
+	display: block;
+	width: 100%;
+	clear: both;
+
+
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	display: block;
+	margin-top: -2vh;
+	font-size: 2.8vw;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 4.99vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+/*-------added .headerTitle class to DOM -------*/
+.headerTitle {
+	width: 100%;
+	margin: 0;
+	display: block;
+	clear: both;
+}
+body header {
+	width: 100%;
+	display: block;
+
+
+}
+.mainContent {
+	display: block;
+	width: auto;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 8.5vw;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 4.8vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 5.3vw;
+
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 3vw;
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 3.05vw;
+	margin-left: 10%;
+}
+.cVoReelPicsHeader {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+
+}
+
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 681px) and (max-width : 881px) {
+    
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+	background-repeat: space;
+	background-position: top;
+}
+header .headerTitle h1 {
+	font-size: 9vw;
+
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+
+}
+header .profileHeader {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -3vw;
+	margin-left: 4vw;
+	font-size: 2vw;
+}
+
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 1.7vw;
+	display: block;
+	margin-top: -1.4vh;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 2.4vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 3.6vw;
+}
+.mainContent {
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 2.6vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 3.3vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 2vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 2.1vw;
+}
+
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width : 882px) and (max-width : 1082px) {
+     
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+	background-repeat: space;
+	background-position: top;
+}
+header .headerTitle h1 {
+	font-size: 9vw;
+
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+
+}
+header .profileHeader {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -2.9vw;
+	margin-left: 4vw;
+	font-size: 1.8vw;
+}
+
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 1.58vw;
+	display: block;
+	margin-top: -1.6vh;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 2vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 3.3vw;
+}
+.mainContent {
+	display: block;
+	margin: auto;
+	width: 85%;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 2.3vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 3.15vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 1.8vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 2vw;
+}
+.cVoReelPicsHeader .cReelVidSec {
+	height: 2.8vw;
+	top: -1vw;
+	position: relative;
+
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+
+
+}
+.cVoReelPicsHeader .cVOAudio {
+	height: 3vw;
+	width: 21vw;
+
+}
+
+
+
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width : 1083px) and (max-width : 1400px) {
+      
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+	background-repeat: space;
+	background-position: top;
+}
+header .headerTitle h1 {
+	font-size: 9vw;
+
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+
+}
+header .profileHeader {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -2.5vw;
+	margin-left: 4vw;
+	font-size: 1.35vw;
+}
+
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 1.38vw;
+	display: block;
+	margin-top: -1.5vh;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 1.8vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 3.1vw;
+}
+.mainContent {
+	display: block;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 2.1vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 2.75vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 1.5vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 1.7vw;
+}
+}
+
+@media only screen and (min-width : 1401px) { 
+     
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+	background-repeat: space;
+	background-position: top;
+}
+header .headerTitle h1 {
+	font-size: 9vw;
+
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+
+}
+header .profileHeader {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -2vw;
+	margin-left: 4vw;
+	font-size: 1.1vw;
+}
+
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 1.3vw;
+	display: block;
+	margin-top: -2vh;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 1.6vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 2.9vw;
+}
+.mainContent {
+	display: block;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 2vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 2.7vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 1.3vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 1.4vw;
+}
+
+ }
