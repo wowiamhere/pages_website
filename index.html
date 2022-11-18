@@ -42,23 +42,20 @@
 
   <div class="cVoReelPicsHeader">
   
-  <input type="button" onclick="javascript:document.getElementById('iSectionVO').style.display=='none'?document.getElementById('iSectionVO').style.display='block':document.getElementById('iSectionVO').style.display='none'" class="cVOSec" value="VO">
+  <input type="button" onclick="javascript:a=document.getElementById('iSectionVO').style;a.display=='none'?a.display='block':a.display='none'" class="cVOSec" value="VO">
+  <input type="button" onclick="javascript:a=document.getElementById('iSectionReel').style;a.display=='none'?a.display='block':a.display='none'" class="cReelVidSec" value="Video">
   
 	<section id="iSectionVO" style="display: none;" >
-		
-    <audio controls src="AboutPageAssets/media/VO_English_Demo.mp3"></audio>
-
+    <audio src="AboutPageAssets/media/VO_English_Demo.mp3" controls class="cVOPlayer"></audio>
     </section>
-   
-    <input type="button" onclick="javascript:document.getElementById('iSectionReel').style.display=='none'?document.getElementById('iSectionReel').style.display='block':document.getElementById('iSectionReel').style.display='none'" class="cReelVidSec" value="Video">
-
-        <section id="iSectionReel" style="display: none;" >
-          <video class="cReel" controls>
-            <source src="AboutPageAssets/media/sergio_valente_reel.mp4">
-          </video>
-        </section>
+      
+    <section id="iSectionReel" style="display: none;" >
+      <video class="cReel" controls>
+        <source src="AboutPageAssets/media/sergio_valente_reel.mp4"></source>
+      </video>
+    </section>
   
-    
+  
   </div>
   <!-- ---------------CUSTOM FOR WEBSITE-------- -->
 </header>

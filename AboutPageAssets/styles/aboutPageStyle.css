@@ -279,16 +279,18 @@ body header {
 }
 
 .cVoReelPicsHeader #iSectionVO {
+	margin-top: 1vw;
 
 }
 
 .cVoReelPicsHeader #iSectionReel {
+	margin-top: 1vw;
 
 }
 
 .cVoReelPicsHeader #iSectionReel .cReel {
-	width: 40vw;
 	height: 15vw;
+	/* [disabled]width: auto; */
 
 }
 
@@ -542,6 +544,29 @@ body header {
 	margin: auto;
 	display: block;
 }
+.cVoReelPicsHeader #iSectionVO {
+	margin-top: 3vw;
+	margin-bottom: 4vw;
+
+}
+.cVOPlayer {
+	height: 6vw;
+	width: 85vw;
+
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+	height: 50vw;
+
+}
+.cVoReelPicsHeader #iSectionReel {
+	margin-top: 2vw;
+	margin-bottom: 4vw;
+
+}
+
+
+
+
 
 
 }
@@ -715,6 +740,29 @@ body header {
 	margin: auto;
 	display: block;
 }
+.cVoReelPicsHeader #iSectionVO {
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+
+}
+.cVOPlayer {
+	height: 3.8vh;
+	width: 55vw;
+
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+	height: 50vw;
+
+}
+.cVoReelPicsHeader #iSectionReel {
+	margin-top: 2vw;
+	margin-bottom: 3vw;
+
+}
+
+
+
+
 
 
 }
@@ -843,6 +891,17 @@ footer .footerNote {
 .mainContent .section1 .section1Content .sectionContent {
 	font-size: 2.1vw;
 }
+.cVOPlayer {
+	height: 3.3vw;
+	width: 40vw;
+
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+	width: auto;
+	height: 27vw;
+}
+
+
 
 }
 
@@ -970,20 +1029,24 @@ footer .footerNote {
 	font-size: 2vw;
 }
 .cVoReelPicsHeader .cReelVidSec {
-	height: 2.8vw;
-	top: -1vw;
-	position: relative;
 
-}
-.cVoReelPicsHeader #iSectionReel .cReel {
 
-	width:25vw;
 }
 .cVoReelPicsHeader .cVOAudio {
 	height: 3vw;
 	width: 21vw;
 
 }
+.cVOPlayer {
+	height: 3vw;
+
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+	width: auto;
+	height: 25vw;
+}
+
+
 
 
 
@@ -1113,6 +1176,16 @@ footer .footerNote {
 .mainContent .section1 .section1Content .sectionContent {
 	font-size: 1.7vw;
 }
+.cVOPlayer {
+	height: 2.8vw;
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+	height: 20vw;
+
+
+}
+
+
 }
 
 @media only screen and (min-width : 1401px) { 
