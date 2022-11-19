@@ -281,6 +281,19 @@ body header {
 
 
 }
+.cImdbProLogoHeader {
+	display: inline-block;
+	position: relative;
+	width: 4vw;
+
+}
+
+.cImdbProLogoHeader .cAimdbProHeader .cimdbProImgHeader {
+	width: 100%;
+
+}
+
+
 .cVoReelPicsHeader {
 	width: 55vw;
 	float: right;
@@ -577,6 +590,13 @@ body header {
 	margin-bottom: 4vw;
 
 }
+.cImdbProLogoHeader {
+	width: 7vw;
+	top: -0.4vw;
+	margin-right: 1vw;
+
+}
+
 
 
 
@@ -773,6 +793,13 @@ body header {
 	margin-bottom: 3vw;
 
 }
+.cImdbProLogoHeader {
+	width: 9vw;
+	top: -0.9vw;
+	margin-right: 1vw;
+
+}
+
 
 
 
@@ -914,6 +941,12 @@ footer .footerNote {
 	width: auto;
 	height: 27vw;
 }
+.cImdbProLogoHeader {
+	width: 5.2vw;
+	top: -0.29vw;
+
+}
+
 
 
 
@@ -1059,6 +1092,12 @@ footer .footerNote {
 	width: auto;
 	height: 25vw;
 }
+.cImdbProLogoHeader {
+	width: 4.6vw;
+	top: -0.3vw;
+
+}
+
 
 
 
@@ -1198,6 +1237,15 @@ footer .footerNote {
 
 
 }
+.cImdbProLogoHeader {
+	width: 4.2vw;
+	top: -0.09vw;
+
+
+}
+
+
+
 
 
 }
@@ -1325,5 +1373,12 @@ footer .footerNote {
 .mainContent .section1 .section1Content .sectionContent {
 	font-size: 1.4vw;
 }
+.cImdbProLogoHeader {
+	width: 3.7vw;
+	top: -0.2vw;
+
+
+}
+
 
  }
