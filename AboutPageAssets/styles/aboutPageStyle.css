@@ -221,12 +221,12 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-left: 10%;
 	font-size: 1.5vw;
 }
+.cRoleSpan{
+	color: orange;
+}
 .cRole{
 	margin-left: 10%;
 	font-size: 1.6vw;
-}
-.mainContent .section1 .section1Content span {
-	color: rgba(146,146,146,1.00);
 }
 .section2 .sectionContentTitle {
 	color: rgba(146,146,146,1.00);
