@@ -170,7 +170,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	display: block;
 }
 
-.section1 .sectionTitle, .section2 .sectionTitle {
+.sectionTitle {
 	color: rgba(255,215,0,1.00);
 	font-weight: 900;
 	text-transform: uppercase;
@@ -203,7 +203,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	color: rgba(208,207,207,1.00);
 	margin-left: 10%;
 }
-.section1 .section1Content .sectionContentTitle {
+.sectionContentTitle {
 	color: orange;
 	font-size: 2.1vw;
 
@@ -221,7 +221,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-left: 10%;
 	font-size: 1.5vw;
 }
-.mainContent .section1 .section1Content .cRole{
+.cRole{
 	margin-left: 10%;
 	font-size: 1.6vw;
 }
@@ -281,7 +281,6 @@ footer .footerDisclaimer {
 	text-align: left;
 	width: 90px;
 	float: left;
-	color-profile: rgba(181,178,178,1.00);
 }
 .cFooter .footerDisclaimer .cFooterSagLink {
 	text-decoration: none;
@@ -316,8 +315,6 @@ footer .footerNote span {
 body header {
 	width: 100%;
 	float: left;
-	margin-bottom: 5vw;
-
 
 }
 .cImdbProLogoHeader {
@@ -440,7 +437,6 @@ body header {
 }
 
 
-
 /* Media query for Mobile devices*/
 @media only screen and (min-width : 285px) and (max-width : 480px) {
     
@@ -532,7 +528,7 @@ header .profilePhoto {
 	/* [disabled]width: 259px; */
 	width: 100%;
 	display: block;
-	clear: boht;
+	clear: both;
 }
 .headerContactInfo {
 	display: block;
@@ -589,7 +585,7 @@ body header {
 .profileHeaderTitle {
 	font-size: 12vw;
 }
-.section1 .sectionTitle, .section2 .sectionTitle {
+.sectionTitle {
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 6vw;
@@ -634,7 +630,7 @@ body header {
 	width: 7vw;
 	top: -0.4vw;
 	margin-right: 1vw;
-
+}
 .cSNameHeader {
 	font-family: "SattinRegular 2O3LX";
 	position: relative;
@@ -666,21 +662,10 @@ body header {
 	letter-spacing: 1vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
-@media only screen and (min-width : 481px) and (max-width : 680px) {
+@media only screen and (min-width : 481px) and (max-width : 881px) {
    
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
@@ -770,7 +755,7 @@ header .profilePhoto {
 	/* [disabled]width: 259px; */
 	width: 100%;
 	display: block;
-	clear: boht;
+	clear: both;
 }
 .headerContactInfo {
 	display: block;
@@ -816,8 +801,6 @@ header .profilePhoto {
 body header {
 	width: 100%;
 	display: block;
-	margin-bottom: 9vw;
-
 
 }
 .mainContent {
@@ -829,12 +812,12 @@ body header {
 .profileHeaderTitle {
 	font-size: 8.5vw;
 }
-.section1 .sectionTitle, .section2 .sectionTitle {
+.sectionTitle {
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 4.8vw;
 }
-.section1 .section1Content .sectionContentTitle {
+.sectionContentTitle {
 	font-size: 5.3vw;
 
 }
@@ -902,164 +885,11 @@ body header {
 	top: -33vw;
 }
 
-
-
-
-
-
-
-
-
-
-
 }
 
-
-/* Media Query for Tablets */
-@media only screen and (min-width : 681px) and (max-width : 881px) {
-    
-/* ---------CUSTOM FOR WEBSITE----------- */
-body{
-	background-repeat: space;
-	background-position: top;
-}
-header .headerTitle h1 {
-	font-size: 9vw;
-
-}
-/* ---------CUSTOM FOR WEBSITE----------- */
-    
-/* Header */
-header {
-	width: 100%;
-	float: none;
-}
-header .profileLogo .logoPlaceholder {
-	display: inline-block;
-}
-header .profilePhoto {
-
-}
-header .profileHeader {
-
-}
-header .socialNetworkNavBar .socialNetworkNav {
-	width: 74px;
-	height: 74px;
-	display: inline;
-}
-/* Main content and sections */
-.section1 .section1Title, .section2 .section1Title {
-	text-align: center;
-}
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 100%;
-}
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
-	display: none;
-}
-.mainContent .section1 .section1Content {
-	display: block;
-	margin-top: 5%;
-	margin-right: 0%;
-	margin-left: 5%;
-	margin-bottom: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.section1 .section1Content .cDirector {
-	display: block;
-	margin-top: -3vw;
-	margin-left: 4vw;
-	font-size: 2vw;
-}
-
-.mainContent .section2 {
-	clear: both;
-}
-.section2 .section2Content {
-	padding: 0px;
-	margin-left: 20%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.mainContent .externalResourcesNav {
-	margin-left: 20%;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	text-align: center;
-	padding-top: 0px;
-	clear: both;
-}
-.mainContent .externalResourcesNav .externalResources {
-	width: 199px;
-	height: 48px;
-	margin-top: 5%;
-}
-/* Footer */
-footer .footerDisclaimer {
-	/* [disabled]float: left; */
-	margin-left: 0.1%;
-}
-footer .footerNote {
-	float: right;
-	margin-right: 3%;
-}
-.cSmallPrint {
-	color: rgba(255,215,0,1);
-	font-size: 1.7vw;
-	display: block;
-	margin-top: -1.4vh;
-}
-.cHEmail {
-	font-weight: bold;
-	font-size: 2.4vw;
-}
-/* ---------CUSTOM FOR WEBSITE----------- */
-
-.profileHeaderTitle {
-	font-size: 3.6vw;
-}
-.mainContent {
-	display: block;
-	margin: auto;
-	width: 90%;
-}
-.section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 2.6vw;
-}
-.section1 .section1Content .sectionContentTitle {
-	font-size: 3.3vw;
-
-}
-.mainContent .section1 .section1Content .cRole {
-	font-size: 2vw;
-}
-.mainContent .section1 .section1Content .sectionContent {
-	font-size: 2.1vw;
-}
-.cVOPlayer {
-	height: 3.3vw;
-	width: 40vw;
-
-}
-.cVoReelPicsHeader #iSectionReel .cReel {
-	width: auto;
-	height: 27vw;
-}
-.cImdbProLogoHeader {
-	width: 5.2vw;
-	top: -0.29vw;
-
-}
-
-
-
-
-}
 
 /* Desktops and laptops  */
-@media only screen and (min-width : 882px) and (max-width : 1082px) {
+@media only screen and (min-width : 882px) and (max-width : 1400px) {
      
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
@@ -1110,12 +940,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
-.section1 .section1Content .cDirector {
-	display: block;
-	margin-top: -2.9vw;
-	margin-left: 4vw;
-	font-size: 1.8vw;
-}
 
 .mainContent .section2 {
 	clear: both;
@@ -1150,40 +974,42 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 1.58vw;
+	font-size: 2vw;
 	display: block;
 	margin-top: -1.6vh;
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 2vw;
+	font-size: 2.5vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 .profileHeaderTitle {
-	font-size: 3.3vw;
+	font-size: 4.3vw;
 }
 .mainContent {
 	display: block;
 	margin: auto;
 	width: 85%;
 }
-.section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 2.3vw;
+.sectionTitle{
+	font-size: 3.7vw;
 }
-.section1 .section1Content .sectionContentTitle {
-	font-size: 3.15vw;
+.sectionContentTitle {
+	font-size: 4.3vw;
 
 }
-.mainContent .section1 .section1Content .cRole {
-	font-size: 1.8vw;
+.cDirector {
+	display: block;
+	margin-top: -1.9vw;
+	margin-left: 4vw;
+	font-size: 2.4vw;
+}
+.cRole {
+	font-size: 2.3vw;
 }
 .mainContent .section1 .section1Content .sectionContent {
 	font-size: 2vw;
-}
-.cVoReelPicsHeader .cReelVidSec {
-
-
 }
 .cVoReelPicsHeader .cVOAudio {
 	height: 3vw;
@@ -1199,162 +1025,21 @@ footer .footerNote {
 	height: 25vw;
 }
 .cImdbProLogoHeader {
-	width: 4.6vw;
+	width: 5.6vw;
 	top: -0.3vw;
+	left: -3.5vw;
 
 }
-
-
-
-
-
-
+.cVOSec{
+	height:3vw;
 }
-
-/* Desktops and laptops  */
-@media only screen and (min-width : 1083px) and (max-width : 1400px) {
-      
-/* ---------CUSTOM FOR WEBSITE----------- */
-body{
-	background-repeat: space;
-	background-position: top;
+.cReelVidSec{
+	height:3vw;
 }
-header .headerTitle h1 {
-	font-size: 9vw;
-
-}
-/* ---------CUSTOM FOR WEBSITE----------- */
-    
-/* Header */
-header {
-	width: 100%;
-	float: none;
-}
-header .profileLogo .logoPlaceholder {
-	display: inline-block;
-}
-header .profilePhoto {
-
-}
-header .profileHeader {
-
-}
-header .socialNetworkNavBar .socialNetworkNav {
-	width: 74px;
-	height: 74px;
-	display: inline;
-}
-/* Main content and sections */
-.section1 .section1Title, .section2 .section1Title {
-	text-align: center;
-}
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 100%;
-}
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
-	display: none;
-}
-.mainContent .section1 .section1Content {
-	display: block;
-	margin-top: 5%;
-	margin-right: 0%;
-	margin-left: 5%;
-	margin-bottom: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.section1 .section1Content .cDirector {
-	display: block;
-	margin-top: -2.5vw;
-	margin-left: 4vw;
-	font-size: 1.35vw;
-}
-
-.mainContent .section2 {
-	clear: both;
-}
-.section2 .section2Content {
-	padding: 0px;
-	margin-left: 20%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.mainContent .externalResourcesNav {
-	margin-left: 20%;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	text-align: center;
-	padding-top: 0px;
-	clear: both;
-}
-.mainContent .externalResourcesNav .externalResources {
-	width: 199px;
-	height: 48px;
-	margin-top: 5%;
-}
-/* Footer */
-footer .footerDisclaimer {
-	/* [disabled]float: left; */
-	margin-left: 0.1%;
-}
-footer .footerNote {
-	float: right;
-	margin-right: 3%;
-}
-.cSmallPrint {
-	color: rgba(255,215,0,1);
-	font-size: 1.38vw;
-	display: block;
-	margin-top: -1.5vh;
-}
-.cHEmail {
-	font-weight: bold;
-	font-size: 1.8vw;
-}
-/* ---------CUSTOM FOR WEBSITE----------- */
-
-.profileHeaderTitle {
-	font-size: 3.1vw;
-}
-.mainContent {
-	display: block;
-	clear: both;
-	margin: auto;
-	width: 80%;
-}
-.section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 2.1vw;
-}
-.section1 .section1Content .sectionContentTitle {
-	font-size: 2.75vw;
-
-}
-.mainContent .section1 .section1Content .cRole {
-	font-size: 1.5vw;
-}
-.mainContent .section1 .section1Content .sectionContent {
-	font-size: 1.7vw;
-}
-.cVOPlayer {
-	height: 2.8vw;
-}
-.cVoReelPicsHeader #iSectionReel .cReel {
-	height: 20vw;
-
-
-}
-.cImdbProLogoHeader {
-	width: 4.2vw;
-	top: -0.09vw;
 
 
 }
 
-
-
-
-
-}
 
 @media only screen and (min-width : 1401px) { 
      
@@ -1364,7 +1049,7 @@ body{
 	background-position: top;
 }
 header .headerTitle h1 {
-	font-size: 9vw;
+	font-size: 10vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -1407,12 +1092,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
-.section1 .section1Content .cDirector {
-	display: block;
-	margin-top: -2vw;
-	margin-left: 4vw;
-	font-size: 1.1vw;
-}
 
 .mainContent .section2 {
 	clear: both;
@@ -1445,46 +1124,68 @@ footer .footerNote {
 	float: right;
 	margin-right: 3%;
 }
-.cSmallPrint {
-	color: rgba(255,215,0,1);
-	font-size: 1.3vw;
-	display: block;
-	margin-top: -2vh;
-}
 .cHEmail {
 	font-weight: bold;
-	font-size: 1.6vw;
+	font-size: 1.5vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 .profileHeaderTitle {
-	font-size: 2.9vw;
+	font-size: 2.7vw;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 1vw;
+	display: block;
+	margin-top: -1.6vh;
 }
 .mainContent {
 	display: block;
-	clear: both;
 	margin: auto;
-	width: 80%;
+	width: 85%;
 }
-.section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 2vw;
+.sectionTitle{
+	font-size: 2.5vw;
 }
-.section1 .section1Content .sectionContentTitle {
+.sectionContentTitle {
 	font-size: 2.7vw;
 
 }
-.mainContent .section1 .section1Content .cRole {
-	font-size: 1.3vw;
-}
-.mainContent .section1 .section1Content .sectionContent {
+.cDirector {
+	display: block;
+	margin-top: -1.9vw;
+	margin-left: 4vw;
 	font-size: 1.4vw;
 }
-.cImdbProLogoHeader {
-	width: 3.7vw;
-	top: -0.2vw;
-
+.cRole {
+	font-size: 1.3vw;
+}
+.sectionContent {
+	font-size: 1.6vw;
+}
+.cVoReelPicsHeader .cVOAudio {
+	height: 3vw;
+	width: 21vw;
 
 }
+.cVOPlayer {
+	height: 3vw;
 
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+	width: auto;
+	height: 25vw;
+}
+.cImdbProLogoHeader {
+	width: 5.6vw;
+	top: -0.3vw;
+	left: -3.5vw;
 
- }
+}
+.cVOSec{
+	height:3vw;
+}
+.cReelVidSec{
+	height:3vw;
+}
+}
