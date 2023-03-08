@@ -4,21 +4,6 @@
 @import url("../../webfonts/Justink_0Wql4/stylesheet.css");
 @import url("../../webfonts/SattinRegular_2O3LX/stylesheet.css");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Global Styles */
 
 body {
@@ -29,7 +14,7 @@ body {
 	padding-right: 2.275%;
 	/* ---------CUSTOM FOR WEBSITE----------- */
 	background-color: black;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/logo_cropped.png");
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/Sergio-Valente-logo.png");
 	background-size: contain;
 	background-blend-mode: hard-light;
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -95,6 +80,7 @@ header .profilePhoto img{
 	color: rgba(255,215,0,1);
 }
 .cNameDivHeader {
+	display: block;
 	height: 27vw;
 }
 
@@ -649,10 +635,6 @@ body header {
 	top: -0.4vw;
 	margin-right: 1vw;
 
-}
-.cNameDivHeader {
-	height: 27vw;
-}
 .cSNameHeader {
 	font-family: "SattinRegular 2O3LX";
 	position: relative;
